@@ -1,0 +1,32 @@
+.logo {
+  display: grid;
+  width: max-content;
+  grid-template-areas: 
+  "first-name second-name"
+  "first-name about-name";
+  margin-bottom: 15px;
+  .first-name, .second-name {
+    font-weight: 900;
+  }
+  .first-name {
+    grid-area: first-name;
+    width: 80px;
+    line-height: 50px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #de001c;
+    color: white;
+  }
+  .second-name {
+    grid-area: second-name;
+    align-self: end;
+    font-size: 20px;
+  }
+  .about-name {
+    grid-area: about-name;
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+}

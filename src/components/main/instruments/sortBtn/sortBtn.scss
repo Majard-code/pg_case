@@ -1,0 +1,17 @@
+.sortBtn {
+  div {
+    display: inline;
+    cursor: pointer;
+  }
+  .red {
+    color: #eaa3ab;
+  }
+  .red-triangle {
+    width: 20px;
+    height: 10px;
+    margin: auto 0;
+  }
+  .down {
+    transform: rotateZ(180deg);
+  }
+}

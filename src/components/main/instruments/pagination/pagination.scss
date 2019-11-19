@@ -1,0 +1,13 @@
+.pagination {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: max-content;
+  font-weight: 900;
+  div {
+    display: inline;
+  }
+  .navlink {
+    cursor: pointer;
+    margin: 10px;
+  }
+}

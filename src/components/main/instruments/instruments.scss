@@ -1,0 +1,44 @@
+.instruments {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 15px 30px 300px 180px 180px max-content max-content 1fr;
+  align-items: center;
+  line-height: 77px;
+  margin: 10px 50px 50px 50px;
+  font-weight: 300;
+  font-size: 14px;
+  img {
+    width: 30px;
+    height: auto;
+  }
+  .names {
+    color: #999999;
+  }
+  .divider {
+    grid-column: 1 / -1;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+  }
+  .navlink {
+    font-weight: 900;
+  }
+  .name {
+    div {
+      line-height: initial;
+    }
+    .link {
+      color: mediumblue;
+    }
+  }
+  .redstar {
+    img {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  .sponsor-word {
+    font-size: 10px;
+    transform: rotateZ(270deg);
+  }
+}
