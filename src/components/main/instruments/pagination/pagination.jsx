@@ -3,10 +3,6 @@ import './pagination.scss';
 import { NavLink } from 'react-router-dom';
 
 function Pagination(props) {
-  console.log(props)
-  for (let i = 1; i < props.lastPage; i++) {
-
-  }
   return (
     <section className="pagination">
       {props.currentPage > 1 && <div><NavLink to={`/instruments/${props.currentPage - 1}`} className='navlink'>назад</NavLink></div>}

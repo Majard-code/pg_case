@@ -13,7 +13,6 @@ import SortBtn from './sortBtn/sortBtn';
 import CompareBtn from './compareBtn/compareBtn';
 
 function Instruments(props) {
-  console.log(props);
   const propsFetchInstruments = props.fetchInstruments
   const matchPage = props.match.params.pageNum ? props.match.params.pageNum : 1;
   const propsSort = props.sort;

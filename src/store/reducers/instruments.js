@@ -17,7 +17,6 @@ export const SET_SORT_AND_SORT_DIRECTION = 'SET_SORT_AND_SORT_DIRECTION';
 const instruments = (state = initState, action) => {
   switch (action.type) {
     case FETCH_INSTRUMENTS_SUCCESS:
-      console.log(action.payload);
       return {
         ...state,
         data: action.payload,

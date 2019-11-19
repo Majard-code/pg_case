@@ -9,7 +9,6 @@ import Loupe from './imgs/loupe.svg'
 import Indoor from './imgs/indoor.svg'
 
 function Nav(props) {
-  console.log(props.favorites.favorites);
   return (
     <nav className='nav'>
       <Logo />
